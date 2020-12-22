@@ -1,0 +1,47 @@
+.square {
+  background: white;
+  border : 1px solid gray;
+  float: left;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.TicTacToe {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.TTT-info {
+  margin-left: 20px;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.padding {
+  background-color: #FFF;
+  padding: 200px;
+}
